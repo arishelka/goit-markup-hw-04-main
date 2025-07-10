@@ -351,6 +351,8 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    width: 40px;
+    height: 40px;
 }
 
 .team__text {
@@ -365,6 +367,7 @@ img {
 .social__icon {
     width: 40px;
     height: 40px;
+    max-width: 100%;
 }
 
 .icon__link {
@@ -506,11 +509,11 @@ img {
     color: #4d5ae5;
 }
 
-/* .footer__items {
+.footer__items {
     margin-right: 120px;
     display: flex;
     align-items: baseline;
-} */
+}
 
 .footer__text {
 
@@ -565,4 +568,9 @@ img {
 
 .svg__item1 {
     fill: #f4f4fd;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline
 }
