@@ -564,15 +564,15 @@ img {
     background-color: #31d0aa;
 }
 
-.insta__icons.link:focus {
+.footer__icons.link:focus {
     background-color: #31d0aa;
 }
 
-.svg__item1 {
+.svg__item {
     fill: #f4f4fd;
 }
 
-.footer__container {
+.footer-container {
     display: flex;
     align-items: baseline;
 }
